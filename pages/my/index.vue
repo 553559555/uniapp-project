@@ -1,17 +1,15 @@
 <template>
-	<view>
-		<text>首页</text>
-	</view>
+    <view>
+        <text>我的</text>
+    </view>
 </template>
 
 <script>
-
 export default {
 	onLoad() {
-		console.log('首页')
+		console.log('我的')
 	}
 }
-
 </script>
 
 <style scoped>
