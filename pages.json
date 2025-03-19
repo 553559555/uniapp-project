@@ -1,4 +1,8 @@
 {
+	"easycom": {
+		"^u-(.*)": "@/node_modules/uview-ui/components/u-$1/u-$1.vue",
+		"autoscan": true
+	},
 	"pages": [
 		{
 			"path": "pages/index/index",

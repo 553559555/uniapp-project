@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "sass": "^1.86.0",
+    "sass-loader": "^10.5.2"
+  },
+  "dependencies": {
+    "uview-ui": "^2.0.38"
+  },
+  "scripts": {
+    "dev": "uni -p app",
+    "build": "uni build",
+    "dev:h5": "uni -p h5"
+  }
+}

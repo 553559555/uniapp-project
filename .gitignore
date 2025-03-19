@@ -1,0 +1,45 @@
+# IDE和编辑器配置
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 依赖包
+node_modules/
+
+# 本地构建产物
+/unpackage/
+/dist/
+/lib/
+
+# 包管理器日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 本地环境变量文件
+.env.local
+.env.*.local
+
+# 日志文件
+logs/
+*.log
+
+# 缓存文件
+.DS_Store
+*.local
+.hbuilderx/
+
+# 项目运行时生成的文件
+/cloudfunctions-aliyun/common/uni-id/config.json
+
+# 应用证书
+*.pfx
+*.p12
+*.key
+*.cer
+*.pem 
